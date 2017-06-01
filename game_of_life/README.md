@@ -4,11 +4,11 @@
 Implement Conway's game of life. The function should take an arbitrarily sized grid (a list of lists) of cells like this:
 ```python
 [
-['.', '.', '.', '.'],
-['.', '.', '*', '.'],
-['.', '.', '*', '.'],
-['.', '.', '*', '.'],
-['.', '.', '.', '.'],
+    ['.', '.', '.', '.'],
+    ['.', '.', '*', '.'],
+    ['.', '.', '*', '.'],
+    ['.', '.', '*', '.'],
+    ['.', '.', '.', '.'],
 ]
 ```
 where `.` stands for _dead_ and `*` stands for _alive_. It should then apply the rules of Conway's game of life to it:
@@ -23,11 +23,11 @@ All rules are applied at the same discrete tick (i.e. each cell can check all fo
 For the above example, the function should return:
 ```python
 [
-['.', '.', '.', '.'],
-['.', '.', '.', '.'],
-['.', '*', '*', '*'],
-['.', '.', '.', '.'],
-['.', '.', '.', '.'],
+    ['.', '.', '.', '.'],
+    ['.', '.', '.', '.'],
+    ['.', '*', '*', '*'],
+    ['.', '.', '.', '.'],
+    ['.', '.', '.', '.'],
 ]
 ```
 
@@ -82,3 +82,7 @@ But beware that this creates copies:
 [[1, 2, 3], [1, 2, 3]]
 ```
 
+## Bonus
+
+1. Write a function that pretty prints the grid
+2. Write a function that "animates" several successive iterations
