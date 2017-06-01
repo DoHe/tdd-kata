@@ -1,2 +1,2 @@
-def next_iteration():
+def next_iteration(grid):
     pass
