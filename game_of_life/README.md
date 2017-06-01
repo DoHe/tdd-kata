@@ -1,7 +1,7 @@
 # Game of Life
 
 ## Task
-Implement Conway's game of life. The function should take an arbitrarily sized grid (a list of lists) of cells like this:
+Implement Conway's game of life. The function should take an arbitrarily sized grid (a list of same length lists) of cells like this:
 ```python
 [
     ['.', '.', '.', '.'],
